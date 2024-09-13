@@ -30,6 +30,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('MyGitFlutterApp'),
       ),
+      body: const Text('feature1 작업'),
     );
   }
 }
