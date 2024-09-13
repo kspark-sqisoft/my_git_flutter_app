@@ -30,7 +30,12 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('MyGitFlutterApp'),
       ),
-      body: const Text('feature1 작업'),
+      body: const Column(
+        children: [
+          Text('feature1 작업'),
+          Text('feature1 작업 동시에'),
+        ],
+      ),
     );
   }
 }
