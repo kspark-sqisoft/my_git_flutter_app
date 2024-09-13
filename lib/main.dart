@@ -34,6 +34,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           Text('feature1 작업'),
           Text('메인 브렌치 작업'),
+          Text('feature1 작업 동시에'),
         ],
       ),
     );
